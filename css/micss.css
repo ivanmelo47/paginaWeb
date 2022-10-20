@@ -1,6 +1,6 @@
-@media (min-width: 100px) {
+@media (min-width: 400px) {
         body {
-          background-color: blue;
+          background-color: red;
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
       }
