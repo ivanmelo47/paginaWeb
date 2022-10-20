@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/micss.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <form>
+        Ingresa nombre: <input type="text" name="nombre"><br>
+        Ingresa apeliido: <input type="text" name="apeliido"><br>
+        Ingresa password: <input type="password" name="pass"><br>
+        Ingresa tu email: <input type="email" name="email"><br><br>
+
+    </form>
+
+    <fieldset>
+        <legend>Opciones extra:</legend>
+        <label for="estCivil">Estado civil: </label>
+        <select name="estCivil" id="estCivil">
+            <option value="Soltero">Soltero</option>
+             <option value="Casado">Casado</option>
+        </select>
+
+
+          <div>
+            <input type="radio" id="hombre"
+             name="contact" value="mujer">
+            <label for="contactChoice1">Hombre</label>
+      
+            <input type="radio" id="mujer"
+             name="contact" value="phone">
+            <label for="contactChoice2">Mujer</label>
+            
+          </div>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Algun comentario?</legend>
+        <textarea name="textarea" rows="3" cols="50" id="comentario"></textarea><br><br>
+    </fieldset><br>
+
+    <button type="submit">Aceptar</button>
+
+
+</body>
+
+</html>
